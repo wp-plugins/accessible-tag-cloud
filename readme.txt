@@ -1,7 +1,7 @@
 === Accessible Tag Cloud ===
 Contributors: automaton
 Donate link: http://www.automaton.be/
-Tags: tags, widgets
+Tags: tags, widgets, widget, accessibility
 Requires at least: 2.5
 Tested up to: 3.0
 Stable tag: 1.1
@@ -39,9 +39,11 @@ This plugin requires a sidebar-enabled theme, as it uses a sidebar widget.
 Because it uses only (CSS) font size to display the amount of posts linked to a tag. Screenreaders do not read out that information, and all impaired users therefore see is a list of words, with no idea of the size of each tag.
 
 
-== Screenshots ==
 
 == Changelog ==
 
 = 1.1 =
+* Tags updated, no code changes
+
+= 1.0 =
 * English-language version

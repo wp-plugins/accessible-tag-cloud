@@ -41,7 +41,7 @@ class Acc_tag_cloud extends WP_Widget {
 	 */
 	function Acc_tag_cloud() {
 		/* Widget settings. */
-		$widget_ops = array( 'classname' => 'widget_acc_tag_cloud', 'description' => __('Toon een toegankelijke tag cloud in de sidebar', 'acc-tag-cloud') );
+		$widget_ops = array( 'classname' => 'widget_acc_tag_cloud', 'description' => __('Display an accessible tag cloud in the sidebar', 'acc-tag-cloud') );
 
 		/* Widget control settings. */
 		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'acc-tag-cloud-widget' );
@@ -101,7 +101,7 @@ class Acc_tag_cloud extends WP_Widget {
 		}
 		$tagcloud="";
 		foreach ($terms as $term){
-			$tagcloud.="<li style='font-size:".$term->size.$unit.";'><a href='".get_bloginfo('url')."/".$taxonomy."/".$term->slug."'><span class='screenreader'>Het dossier &#8216;</span>".$term->name."<span class='screenreader'>&#8217; bevat ".$term->count." artikels</span></a></li> ";
+			$tagcloud.="<li style='font-size:".$term->size.$unit.";'><a href='".get_bloginfo('url')."/".$taxonomy."/".$term->slug."'><span class='screenreader'>The tag &#8216;</span>".$term->name."<span class='screenreader'>&#8217; contains ".$term->count." posts</span></a></li> ";
 		}
 		/* Before widget (defined by themes). */
 		echo $before_widget;

@@ -4,7 +4,7 @@ Donate link: http://www.automaton.be/
 Tags: tags, widgets
 Requires at least: 2.5
 Tested up to: 3.0
-Stable tag: trunk
+Stable tag: 1.1
 
 Accessible replacement for the default tag cloud
 

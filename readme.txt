@@ -10,17 +10,8 @@ Accessible replacement for the default tag cloud
 
 == Description ==
 
-This plugin creates a tag cloud that has, per tag, a complete description of that tag's size, in the form "The tag 'yourtag' contains X posts". This is for the benefit of screenreaders, who will read this information aloud.
-This additional text can be hidden from regular users by styling the 'screenreader' class in your theme's CSS file. I use this CSS code:
-
-.screenreader {
-	height:0;
-	left:-9000px;
-	position:absolute;
-	width:0;
-}
-
-Do not use 'display:none' as that will hide it from screenreaders.
+This plugin creates a tag cloud that has, per tag, an indication of that tag's size, between brackets right after the tag and within the anchor text. This is for the benefit of screenreaders, who will read this information aloud.
+This additional text is hidden from screenreaders by an included styling class. I am working on an option to include your own.
 
 I'd like to add some localization options, but I have insufficient PHP knowledge to implement that. If you'd like to help out, please let me know at http://www.automaton.be/contact/
 

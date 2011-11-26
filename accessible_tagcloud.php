@@ -27,6 +27,36 @@ function acc_tag_cloud_load_widgets() {
 	register_widget( 'Acc_tag_cloud' );
 }
 
+
+/*
+ * function to add css to the hidden parts in the tag cloud
+ */
+function acc_tag_cloud_hidecss($styling="default",$code='class="acc_tag_cloud_screenreader"') {
+    if ($styling=="inline") {
+        return 'style="height:0;left:-9000px;position:absolute;width:0;"';
+    } else if ($styling=="owncode") {
+        return $code;
+    } else {
+        return 'class="acc_tag_cloud_screenreader"';
+    }
+}
+/*
+ * function to add default screenreader class to head
+ */
+function acc_tag_cloud_defaultcss() {
+   $strHtml = '<style type="text/css">
+      .acc_tag_cloud_screenreader {
+        height:0;
+        left:-9000px;
+        position:absolute;
+        width:0;
+      }
+   </style>';
+
+   echo $strHtml;
+}
+add_action('wp_head', 'acc_tag_cloud_defaultcss');
+
 /**
  * Widget class.
  * This class handles everything that needs to be handled with the widget:

@@ -4,7 +4,7 @@ Donate link: http://www.automaton.be/
 Tags: tags, widgets, widget, accessibility
 Requires at least: 2.5
 Tested up to: 3.2
-Stable tag: 1.2
+Stable tag: 1.3
 
 Accessible replacement for the default tag cloud
 
@@ -32,6 +32,9 @@ Because it uses only (CSS) font size to display the amount of posts linked to a 
 
 
 == Changelog ==
+
+= 1.3 =
+* No changes. Just released a new version because the 1.2 update contained obsolete files.
 
 = 1.2 =
 * Changed display code to less verbose version (nr. of posts between brackets instead of full text)

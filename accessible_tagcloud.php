@@ -3,7 +3,7 @@
  * Plugin Name: Accessible tag cloud
  * Plugin URI: http://www.automaton.be/
  * Description: Accessible tag cloud widget
- * Version: 1.2
+ * Version: 1.3
  * Author: Toon Van de Putte
  * Author URI: http://www.automaton.be/
  *

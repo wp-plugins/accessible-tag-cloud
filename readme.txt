@@ -3,7 +3,7 @@ Contributors: automaton
 Donate link: http://www.automaton.be/
 Tags: tags, widgets, widget, accessibility
 Requires at least: 2.5
-Tested up to: 3.0
+Tested up to: 3.2
 Stable tag: 1.2
 
 Accessible replacement for the default tag cloud
